@@ -1,7 +1,8 @@
- fun main(args:Array<String>){
-     println(args.contentToString())
+ fun main(){
 
-     print("Hello world!")
-     print(42)
+    println(sum(2,3))
+ }
 
+ fun sum(a: Int, b:Int):Int{
+     return a + b
  }
