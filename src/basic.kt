@@ -1,7 +1,7 @@
- fun main(){
-    printSum(3, 5)
- }
-
-fun printSum(a: Int, b: Int):Unit{
-    println("sum of $a and $b is ${a + b}")
+fun main(){
+    val a: Int = 1  // immediate assignment
+    val b = 2       // 'Int' type is inferred
+    val c: Int      // Type required when no initializer is provided
+    c = 3           // deferred assignment
 }
+
